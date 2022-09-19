@@ -1,3 +1,51 @@
-.taskContainer {
-    border: 1px solid rgba(118, 215, 200, 0.379)
+.tasksContainer {
+   border-bottom: 1px solid black;
+}
+
+.containerTodo {
+    margin: 20px;
+    display: flex;
+    flex-direction: column
+}
+
+.todoTitle {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.doingContainer {
+    margin-right: 50px;
+}
+
+.tasksList {
+    border: 1px solid black;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.doingAndDone {
+    display: flex;
+}
+
+.optionTask {
+    font-weight: 800;
+    margin-left: 64px;
+}
+
+.tasksListContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editAndDelteBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.taskNameStyle {
+    cursor: pointer;
 }

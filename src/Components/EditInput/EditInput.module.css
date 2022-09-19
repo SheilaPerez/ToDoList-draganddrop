@@ -1,0 +1,17 @@
+.saveEditBtn {
+    margin-left: 21px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ABC9FF;
+    border: none;
+    padding: 4px;
+}
+
+.saveEditBtn:hover {
+    background-color: white;
+    color: #ABC9FF;
+}
+
+.inputEdit {
+    width: 172px;
+}

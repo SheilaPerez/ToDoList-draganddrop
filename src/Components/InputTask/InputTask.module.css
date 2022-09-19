@@ -1,0 +1,23 @@
+.saveTaskBtn {
+    margin-left: 21px;
+    border-radius: 5px;
+    color: white;
+    background-color: #66BFBF;
+    border: none;
+    padding: 4px;
+    margin-right: 20px;
+}
+
+.saveTaskBtn:hover {
+    background-color: white;
+    color: #66BFBF;
+}
+
+.taskContainer {
+    display: flex;
+}
+
+.taskInput {
+    margin-right: 20px;
+    width: 284px;
+}
